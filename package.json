@@ -8,7 +8,7 @@
     "pjson": "ts-node ./tools/gen-package-json.ts > ./lambda/package.json",
     "test": "nyc mocha --require ts-node/register ./test/*.test.ts",
     "lint": "tslint src/**/*.ts",
-    "clean": "rm -rf ./lambda/*"
+    "clean": "find ./lambda -depth  -path './lambda' -prune -o ! -name '.gitkeep' -delete"
   },
   "author": "Amazon Alexa",
   "license": "ISC",
