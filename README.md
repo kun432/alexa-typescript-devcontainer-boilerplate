@@ -6,14 +6,15 @@ VS Code devcontainer boilerplate for Alexa skill development using TypeScript
 
 ## Prerequisite
 
+- VS Code devcontainer extention
 - `git config` & `ask configure` & `aws configure` in your host (devcontainer will mount those)
 
 ## Initialize
 
 1. Use this template -> Create a new repository
 2. git clone && cd repository directory
-3. `code .`
-4. "reopen in container"
+3. open with VS code(`code .`)
+4. reopen in container in VS Code
 5. `npm install`
 
 ## Deploy
