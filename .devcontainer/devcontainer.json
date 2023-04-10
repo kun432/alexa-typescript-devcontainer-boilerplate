@@ -1,0 +1,14 @@
+{
+	"dockerComposeFile": "docker-compose.yml",
+	"service": "dev",
+	"workspaceFolder": "/workspace",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"ask-toolkit.alexa-skills-kit-toolkit",
+				"YoshiakiYamada.alexa-presentation-language-preview",
+				"esbenp.prettier-vscode"
+			]
+	    }
+    }
+}

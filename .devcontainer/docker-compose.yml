@@ -1,0 +1,11 @@
+version: '3'
+services:
+  dev:
+    build:
+      context: ..
+    volumes:
+      - ~/.gitconfig:/home/vscode/.gitconfig
+      - ~/.ask:/home/vscode/.ask
+      - ~/.aws:/home/vscode/.aws
+      - ..:/workspace:cached
+    command: sleep infinity
