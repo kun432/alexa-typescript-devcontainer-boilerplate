@@ -14,16 +14,15 @@ VS Code devcontainer boilerplate for Alexa skill development using TypeScript
 2. git clone && cd repository directory
 3. `code .`
 4. "reopen in container"
-5. npm install
-6. Happy Coding!
+5. `npm install`
 
 ## Deploy
 
-1. npm run test (optional)
-2. npm run lint (optional)
-3. npm run build
-4. npm run pjson
-5. ask deploy
+1. `npm run test` (optional)
+2. `npm run lint` (optional)
+3. `npm run build`
+4. `npm run pjson`
+5. `ask deploy`
 
 ## Thanks
 
